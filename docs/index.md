@@ -11,5 +11,5 @@ This documentation compiles the procedures for installing tools that I frequentl
 - Helm
 - Multipass
 - Git
-- Linux / Ubuntu
+- Ubuntu
 

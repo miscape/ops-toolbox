@@ -24,6 +24,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  
   - Multipass: 
     - Install: multipass/install.md
 
@@ -63,8 +64,5 @@ nav:
   #     - OpenStack Exporter: openstack/exporter.md
   #     - Cinder: openstack/cinder.md
 
-  - Linux:
-      - Panoramica: linux/index.md
-      - Dischi e LVM: linux/dischi-lvm.md
-      - NGINX reverse proxy: linux/nginx-reverse-proxy.md
-      - Systemd: linux/systemd.md
+  - Ubuntu:
+      - Panoramica: ubuntu/index.md
