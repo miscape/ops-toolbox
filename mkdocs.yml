@@ -1,0 +1,70 @@
+site_name: Operational Toolbox
+site_description: Tools for sysadmin, DevOps and Kubernetes
+site_author: Mirko
+
+theme:
+  name: material
+  language: it
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Multipass: 
+    - Install: multipass/install.md
+
+  - Kubernetes: 
+    - Calico CNI: kubernetes/calico.md
+    - Local Path Provisioner: kubernetes/local-path-provisioner.md
+    - Envoy Gateway: kubernetes/envoy-gateway.md
+
+  - Docker:
+      - Install: docker/install.md
+
+  - Helm:
+      - Install: helm/install.md
+
+  # - Keycloak:
+  #     - Panoramica: keycloak/index.md
+  #     - Import utenti: keycloak/import-utenti.md
+  #     - Realm roles: keycloak/realm-roles.md
+  #     - Client roles: keycloak/client-roles.md
+  #     - Client OIDC: keycloak/oidc-client.md
+
+  # - MinIO:
+  #     - Panoramica: minio/index.md
+  #     - Installazione: minio/installazione.md
+  #     - Keycloak OIDC: minio/keycloak-oidc.md
+  #     - Policy bucket: minio/policy-bucket.md
+
+  # - Monitoring:
+  #     - Panoramica: monitoring/index.md
+  #     - Prometheus: monitoring/prometheus.md
+  #     - Grafana: monitoring/grafana.md
+  #     - Node Exporter: monitoring/node-exporter.md
+
+  # - OpenStack:
+  #     - Panoramica: openstack/index.md
+  #     - Horizon: openstack/horizon.md
+  #     - OpenStack Exporter: openstack/exporter.md
+  #     - Cinder: openstack/cinder.md
+
+  - Linux:
+      - Panoramica: linux/index.md
+      - Dischi e LVM: linux/dischi-lvm.md
+      - NGINX reverse proxy: linux/nginx-reverse-proxy.md
+      - Systemd: linux/systemd.md
