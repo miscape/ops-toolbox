@@ -11,6 +11,23 @@ theme:
     - search.highlight
     - content.code.copy
 
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Passa alla modalità scura
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Passa alla modalità chiara
+
 plugins:
   - search
 
