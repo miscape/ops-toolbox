@@ -47,12 +47,12 @@ vim custom-resources.yaml
 cidr: 10.244.0.0/16
 ```
 
-Poi installa Calico
+5. Poi installa Calico
 ```bash
 kubectl create -f custom-resources.yaml
 ```
 
-5. Verifiche:
+Verifiche:
 ```bash
 kubectl get pods -n tigera-operator
 kubectl get pods -n calico-system
