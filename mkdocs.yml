@@ -83,3 +83,4 @@ nav:
 
   - Ubuntu:
       - Panoramica: ubuntu/index.md
+      - NFS Server: nfs-server.md
