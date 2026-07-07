@@ -1,12 +1,13 @@
 # Dynamic Volume Provisioning (NFS)
-Per questo lab utilizzo la stessa architettura usata per il lab [NFS Server](ubuntu/nfs-server.md).
+Utilizzo la stessa architettura usata per NFS Server.
 
 Il dynamic NFS provisioning serve a far creare automaticamente a Kubernetes i volumi NFS quando un’applicazione richiede una PVC.
-In pratica lato Admin prepari una volta sola `NFS server + nfs-subdir-external-provisioner + StorageClass`
+
+In pratica lato Admin prepari una volta sola `NFS server + nfs-subdir-external-provisioner + StorageClass`.
 
 I developers quando devono deployare aggiungono una PVC con la `storageClassName: nfs-retain` creata dall'Admin.
 
-Kubernetes crea automaticamente `PVC -> PV -> sottodirectory sul server NFS`
+Kubernetes crea automaticamente `PVC -> PV -> sottodirectory sul server NFS`.
 
 ## 1. Installare Helm repo del provisioner
 
