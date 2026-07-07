@@ -1,5 +1,5 @@
 # Dynamic Volume Provisioning (NFS)
-Utilizzo la stessa architettura usata per [NFS Server](/docs/ubuntu/nfs-server.md).
+Utilizzo la stessa architettura usata per [NFS Server](https://miscape.github.io/ops-toolbox/ubuntu/nfs-server/).
 
 Il dynamic NFS provisioning serve a far creare automaticamente a Kubernetes i volumi NFS quando un’applicazione richiede una PVC.
 
