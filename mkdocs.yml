@@ -49,6 +49,7 @@ nav:
     - Calico CNI: kubernetes/calico.md
     - Local Path Provisioner: kubernetes/local-path-provisioner.md
     - Envoy Gateway: kubernetes/envoy-gateway.md
+    - Dynamic NFS Provisioner: kubernetes/dynamic-nfs-provisioner.md
 
   - Docker:
       - Install: docker/install.md
