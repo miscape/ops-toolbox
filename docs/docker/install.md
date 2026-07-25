@@ -46,7 +46,19 @@ sudo systemctl status docker
 sudo systemctl start docker
 ```
 
-3. Verify that the installation is successful by running the hello-world image:
+3. Manage Docker as a non-root user
+```
+# Create the docker group
+sudo groupadd docker
+
+# Add your user to the docker group
+sudo usermod -aG docker $USER
+
+# Run the following command to activate the changes to groups
+newgrp docker
+```
+
+4. Verify that the installation is successful by running the hello-world image:
 ```bash
 sudo docker run hello-world
 ```
