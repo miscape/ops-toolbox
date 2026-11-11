@@ -41,9 +41,6 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  
-  - Multipass: 
-    - Install: multipass/install.md
 
   - Kubernetes: 
     - Calico CNI: kubernetes/calico.md
@@ -51,11 +48,6 @@ nav:
     - Envoy Gateway: kubernetes/envoy-gateway.md
     - Dynamic NFS Provisioner: kubernetes/dynamic-nfs-provisioner.md
 
-  - Docker:
-      - Install: docker/install.md
-
-  - Helm:
-      - Install: helm/install.md
-
   - Troubleshooting:
       - Panoramica: troubleshooting/index.md
+      - Vault Pods NotReady: troubleshooting/vault-pods-sealed-notready.md
